@@ -1,10 +1,13 @@
 var d2 = new Date();
 var koreantime = new Array();
 var twodigityear = 0;
-cktd();
-var firsttimeout = 1000 - d2.getMilliseconds();
-setTimeout(cktd, firsttimeout);
-window.setInterval(cktd, 1000);
+setTimeout(loadingtime, 2000);
+function loadingtime() {
+	cktd();
+	var firsttimeout = 1000 - d2.getMilliseconds();
+	setTimeout(cktd, firsttimeout);
+	window.setInterval(cktd, 1000);
+}
 function cktd() {
 	var d = new Date();
 	if (d.getHours() < 12) {
