@@ -38,7 +38,7 @@ function cktd() {
 	} else if (d.getHours() == 11 || d.getHours() == 23) {
 		koreantime[1] = "열한시 ";
 	} else if (d.getHours() == 12 || d.getHours() == 0) {
-		koreantime[1] = "열둘시 ";
+		koreantime[1] = "열두시 ";
 	}
 	if (d.getMinutes() == 0) {
 		koreantime[2] = "";
