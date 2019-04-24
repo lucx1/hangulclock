@@ -53,7 +53,7 @@ function cktd() {
 	if (d.getFullYear() >= 2200) {
 		koreantime[4] = "이천이백"
 	} else if (d.getFullYear() >= 2100) {
-		koreantime[4] = "이천일백"
+		koreantime[4] = "이천백"
 	} else if (d.getFullYear() >= 2000) {
 		koreantime[4] = "이천"
 	} else {
