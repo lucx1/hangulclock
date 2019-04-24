@@ -18,7 +18,7 @@ function cktd() {
 	if (d.getHours() == 1 || d.getHours() == 13) {
 		koreantime[1] = "한시 ";
 	} else if (d.getHours() == 2 || d.getHours() == 14) {
-		koreantime[1] = "둘시 ";
+		koreantime[1] = "두시 ";
 	} else if (d.getHours() == 3 || d.getHours() == 15) {
 		koreantime[1] = "셋시 ";
 	} else if (d.getHours() == 4 || d.getHours() == 16) {
